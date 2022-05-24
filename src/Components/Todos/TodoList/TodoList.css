@@ -1,0 +1,11 @@
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 30px;
+  overflow: auto;
+  background: rgb(36, 11, 0);
+  background: linear-gradient(180deg, rgba(36, 11, 0, 0) 0%, rgba(243, 227, 209, 0.318) 100%);
+  border-radius: 30px;
+  list-style: none;
+}

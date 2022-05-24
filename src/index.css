@@ -1,0 +1,35 @@
+html,
+body,
+#root,
+.app {
+  height: 100%;
+  width: 100%;
+}
+
+:root {
+  box-sizing: border-box;
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+.button {
+  margin-left: auto;
+  width: max-content;
+  background-color: rgb(103, 65, 22);
+  border: none;
+  border-radius: 6px;
+  padding: 10px 30px;
+  color: rgb(243, 227, 209);
+}
+
+input,
+textarea {
+  border: none;
+  padding: 10px;
+  border-radius: 2px;
+}

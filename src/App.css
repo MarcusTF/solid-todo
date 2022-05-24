@@ -1,0 +1,13 @@
+.app {
+  background-color: rgb(255, 252, 248);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main {
+  padding: 20px 0;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  width: calc(100% - 60px);
+  height: 100%;
+}
